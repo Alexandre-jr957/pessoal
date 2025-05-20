@@ -1,0 +1,52 @@
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      font-family:Georgia, 'Times New Roman', Times, serif ;
+      background-color:lightblue;
+      color:darkcyan;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header{
+      background-color:lightskyblue;
+      color:dodgerblue;
+      padding: 10px 0;
+      text-align: center;
+      border-style:outset;
+      border-color:mediumturquoise;
+      border-width:thick ;
+      border-radius: 12px;
+    }
+    header h1{
+      margin-bottom: 10px;
+    }
+    nav ul{
+      list-style: none;
+    }
+    nav ul li{
+      display: inline;
+      margin: 0 10px;
+    }
+    nav ul li a{
+      color: #fff;
+      text-decoration: none;
+    }
+    section{
+      margin: 20px 0;
+    }
+    section#sobre,
+    section#projetos,
+    section#contato{
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-sizing: 0 0 10px rgb(0, 126, 243);
+    }
+    footer{
+      text-align: right;
+      margin-top: 20px;
+    }
