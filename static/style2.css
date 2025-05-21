@@ -3,24 +3,49 @@
       padding: 0;
       box-sizing: border-box;
     }
-header{
-      background-color:white
-      color:rgb(0, 0, 0);
-      padding: 10px 0;
-      text-align: center;
-      border-style:outset;
-      border-color:rgb(33, 34, 34);
-      border-width:thick ;
-      border-radius: 12px
-    }
     body{
       font-family:Georgia, 'Times New Roman', Times, serif ;
-      background-color:rgb(255, 255, 255);
+      background-color:rgb(165, 165, 165);
       color:rgb(0, 0, 0);
       line-height: 1.6;
       padding: 20px;
     }
+    header{
+      background-color:rgb(255, 255, 255);
+      color:rgb(0, 0, 0);
+      padding: 10px 0;
+      text-align: center;
+      border-style:outset;
+      border-color:rgb(43, 42, 42);
+      border-width:thick ;
+      border-radius: 12px;
+    }
     header h1{
       margin-bottom: 10px;
     }
-    
+    nav ul{
+      list-style: none;
+    }
+    nav ul li{
+      display: inline;
+      margin: 0 10px;
+    }
+    nav ul li a{
+      color: #8b8b8b;
+      text-decoration: none;
+    }
+    section{
+      margin: 20px 0;
+    }
+    section#Materiais,
+    section#Comofazer,
+    section#Segundasinstruçoes{
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-sizing: 0 0 10px rgb(0, 0, 0);
+    }
+    footer{
+      text-align: right;
+      margin-top: 20px;
+    }
